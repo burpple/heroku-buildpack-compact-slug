@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -f $1/app/assets ]; then
+  echo "Running heroku-buildpack-compact-slug"
+  exit 0
+else
+  exit 1
+fi

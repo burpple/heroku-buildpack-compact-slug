@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "-----> Deleting app/assets to reduce slug size"
+rm -rf app/assets/
