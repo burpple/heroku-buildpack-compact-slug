@@ -1,4 +1,8 @@
 #!/bin/bash
 
+BUILD_DIR=$1
+CACHE_DIR=$2
+ENV_DIR=$3
+
 echo "-----> Deleting app/assets to reduce slug size"
-rm -rf app/assets/
+rm -rf $BUILD_DIR/app/assets/
